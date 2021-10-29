@@ -6,14 +6,12 @@ player_group = pygame.sprite.RenderUpdates()
 missile_group = pygame.sprite.RenderUpdates()
 ball_group = pygame.sprite.RenderUpdates()
 
-#player = Player(player_group)
 
 screen = pygame.display.set_mode((1024, 768))
 pygame.display.set_caption("팡팡")
 
 clock = pygame.time.Clock();
 
-#background = pygame.image.load("background.png")
 
 is_playing = True
 
