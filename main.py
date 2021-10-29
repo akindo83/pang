@@ -6,7 +6,6 @@ player_group = pygame.sprite.RenderUpdates()
 missile_group = pygame.sprite.RenderUpdates()
 ball_group = pygame.sprite.RenderUpdates()
 
-
 screen = pygame.display.set_mode((1024, 768))
 pygame.display.set_caption("팡팡")
 
